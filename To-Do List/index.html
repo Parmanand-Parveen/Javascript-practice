@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do list</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+      <div id="wrapper" class="relative flex justify-center">
+         
+      <div class="container bg-white rounded-md absolute  top-5 w-[90%] lg:w-1/4">
+        <h2 class="flex gap-2 text-xl font-bold  mt-4 ml-4"> To-Do List <img src="./images/icon.png" alt="" class="h-7 w-7" ></h2>
+        <div class="p-4 w-full relative">
+            <input id="input-box" type="text" placeholder="Enter your task" class="outline-none w-full bg-slate-200 p-2 rounded-3xl">
+            <button class="add absolute bottom-4 w-20 right-4 border-none bg-orange-400 p-2 rounded-3xl text-white font-semibold">Add</button> 
+        </div>
+        <ul id="list-container" class="list-container p-4 w-full relative">
+            <!-- <li class="checked">This is my first task</li>
+            <li>This is my second task</li> -->
+        </ul>
+      </div>
+
+      </div>
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
