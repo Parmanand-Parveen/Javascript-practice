@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.subbtn{
+    transform: translate(-50%,-50%);
+}
+
+.popdiv{
+    visibility: hidden;
+}
+
+.openpop{
+    visibility: visible;
+    scale: 1;
+}
