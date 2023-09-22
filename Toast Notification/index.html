@@ -6,10 +6,17 @@
     <title>Toast Notification</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
+<body class="relative h-screen w-screen">
     
+    <div class="buttons m-12 flex">
+        <div class="success py-1 w-32 text-center  px-5 m-4 bg-slate-500 text-white font-bold block cursor-pointer">Success</div>
+        <div class="invalid py-1 w-32 text-center  px-5 m-4 bg-slate-500 text-white font-bold block cursor-pointer">Invalid</div>
+        <div class="error py-1 w-32 text-center  px-5 m-4 bg-slate-500 text-white font-bold block cursor-pointer">Error</div>
+    </div>
 
-    
+    <div class="toast h-[500px] w-[500px] absolute bottom-7 right-7"></div>
+
+
     <script src="script.js"></script>
 </body>
 </html>
