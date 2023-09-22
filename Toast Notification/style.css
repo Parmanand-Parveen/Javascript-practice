@@ -1,3 +1,73 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+.toast{
+    width: 400px;
+    height:80px;
+    -webkit-box-shadow: 3px -3px 28px 3px rgba(180,186,183,1);
+-moz-box-shadow: 3px -3px 28px 3px rgba(180,186,183,1);
+box-shadow: 3px -3px 28px 3px rgba(180,186,183,1);
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 15px;
+    position: relative;
+}
+.toast i{
+    color: green;
+    scale: 1.5;
+}
+
+.toast::after {
+    content: '';
+    width: 100%;
+    height: 5px;
+    background-color: green;
+    position: absolute;
+    bottom: 0px;
+    left: 0;
+    animation: anime 5s linear ;
+}
+
+@keyframes anime {
+    100%{
+        width: 0px;
+    }
+    
+}
+
+.toast2 i{
+    color: orange;
+    scale: 1.5;
+}
+
+.toast2::after {
+    content: '';
+    width: 100%;
+    height: 5px;
+    background-color: orange;
+    position: absolute;
+    bottom: 0px;
+    left: 0;
+    animation: anime 5s linear ;
+}
+
+
+.toast3 i{
+    color: red;
+    scale: 1.5;
+}
+
+.toast3::after {
+    content: '';
+    width: 100%;
+    height: 5px;
+    background-color: red;
+    position: absolute;
+    bottom: 0px;
+    left: 0;
+    animation: anime 5s linear ;
+}

@@ -5,16 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Toast Notification</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body class="relative h-screen w-screen">
     
     <div class="buttons m-12 flex">
-        <div class="success py-1 w-32 text-center  px-5 m-4 bg-slate-500 text-white font-bold block cursor-pointer">Success</div>
-        <div class="invalid py-1 w-32 text-center  px-5 m-4 bg-slate-500 text-white font-bold block cursor-pointer">Invalid</div>
-        <div class="error py-1 w-32 text-center  px-5 m-4 bg-slate-500 text-white font-bold block cursor-pointer">Error</div>
+        <button class="success py-1 w-32 text-center  px-5 m-4 bg-slate-500 text-white font-bold block cursor-pointer">Success</button>
+        <button class="invalid py-1 w-32 text-center  px-5 m-4 bg-slate-500 text-white font-bold block cursor-pointer">Invalid</button>
+        <button class="error py-1 w-32 text-center  px-5 m-4 bg-slate-500 text-white font-bold block cursor-pointer">Error</button>
     </div>
 
-    <div class="toast h-[500px] w-[500px] absolute bottom-7 right-7"></div>
+    <div class="toastbox h-[500px] w-[500px] absolute bottom-7 right-7 m-4 overflow-hidden"></div>
 
 
     <script src="script.js"></script>
