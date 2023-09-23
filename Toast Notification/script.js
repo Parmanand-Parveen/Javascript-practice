@@ -16,7 +16,7 @@ success.addEventListener("click",()=>{
 
 invalid.addEventListener("click",()=>{
     let toast = document.createElement("div")
-    toast.innerHTML = `<i class="fa-solid fa-circle-exclamation"></i> Data is not correct.Check again!`
+    toast.innerHTML = `<i class="fa-solid fa-circle-exclamation"></i> Invalid input.Check again!`
    toast.classList.add("toast2","toast")
    toastbox.appendChild(toast)
    setTimeout(()=>{
@@ -27,7 +27,7 @@ invalid.addEventListener("click",()=>{
  
 error.addEventListener("click",()=>{
     let toast = document.createElement("div")
-    toast.innerHTML = `<i class="fa-solid fa-circle-xmark"></i> Error found.`
+    toast.innerHTML = `<i class="fa-solid fa-circle-xmark"></i> Please fix the error!`
    toast.classList.add("toast3","toast")
    toastbox.appendChild(toast)
    setTimeout(()=>{
