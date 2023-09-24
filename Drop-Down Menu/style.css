@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#wrapper{
+    background: rgb(170,68,63);
+background: linear-gradient(8deg, rgba(170,68,63,0.9030730097654458) 59%, rgba(151,19,53,0.9706207337008349) 86%);
+}
+
+.social{
+    background-color: rgba(156, 156, 156, 0.602);
+}
+
+ul{
+    background-color: rgba(255, 255, 255, 0.453);
+}
+
+.option:hover{
+    background-color: rgba(255, 255, 255, 0.649);
+}
+
+.active{
+    display: flex;
+}
+.rotate{
+    rotate: 180deg;
+}
