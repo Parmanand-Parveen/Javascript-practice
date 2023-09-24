@@ -1,3 +1,31 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.gallary{
+    transition: all 1s linear   ;
+}
+
+.gallary img{
+    filter: grayscale(100%);
+    width: 33%;
+   height: 300px;
+   transition: all 0.5s linear;
+}
+
+
+.gallary img:hover{
+    filter: grayscale(0%);
+    scale: 1.1;
+    cursor: pointer;
+   
+}
+
+.gallary::-webkit-scrollbar{
+    display: none;
+}
