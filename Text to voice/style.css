@@ -1,3 +1,35 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+#wrapper{
+    background: rgb(87,63,170);
+background: linear-gradient(45deg, rgba(87,63,170,0.914402723980217) 59%, rgba(224,76,115,0.9200049648765756) 86%);
+}
+
+textarea{
+    background: rgba(239, 236, 236, 0.435);
+    outline: none;
+    color: white;   
+}
+
+textarea::placeholder{
+    color: white;
+}
+
+select{
+    width: 350px;
+    appearance: none;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.499);
+    background-image: url(./images/dropdown.png);
+    background-repeat: no-repeat;
+    background-size: 15px;
+    align-items: center;
+    background-position: calc(100% - 10px);
+    outline: none;
+    cursor: pointer;
+    padding: 8px;
+   
+}
