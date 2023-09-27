@@ -1,3 +1,18 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+body{
+    position: relative;
+    background-image: url(./Images/background.png) ;
+    background-position: center;
+    background-size: cover;
+}
+
+#wrapper{
+    background-color: rgba(0, 0, 0, 0.52);
+}
+
+
+
