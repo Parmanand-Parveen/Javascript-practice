@@ -4,20 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Image search</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css">    
 </head>
 <body>
     
-    <div id="wrapper" class="h-screen w-screen bg-cyan-800 flex flex-col items-center">
+    <div id="wrapper" class="min-h-screen h-full w-screen bg-cyan-800 flex flex-col items-center">
         <h1 class="mx-auto text-white text-4xl font-bold mt-24">Image search engine</h1>
         <form class="max-w-sm w-[90%] h-10 mt-6 rounded-lg">
-            <input class="w-3/4 h-full px-4 placeholder:text-white bg-transparent outline-none" type="text" placeholder="Search anything here...">
-            <button class="w-[23.86%] rounded-r-lg h-full bg-orange-700 text-white">Search</button>
+            <input class="searchbox w-3/4 text-white h-full px-4 placeholder:text-white bg-transparent outline-none" type="text" placeholder="Search anything here...">
+            <button class="searchbtn w-[23.86%] rounded-r-lg h-full bg-orange-700 text-white">Search</button>
         </form>
-        <div>
+        <div class="imagecontainer grid mt-24 grid-cols-3 w-[80%] mx-auto gap-6 mb-12">
             
         </div>
-        <button class="mt-5 px-4 py-2 text-white rounded-lg bg-orange-700 hidden">Show more</button>
+        <button class="show-more-btn mt-5 px-4 py-2 text-white rounded-lg bg-orange-700 hidden">Show more</button>
     </div>
 
     <script src="script.js"></script>
