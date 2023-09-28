@@ -1,3 +1,19 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+#wrapper{
+background: rgb(97,46,201); 
+background: linear-gradient(219deg, rgba(97,46,201,0.8667836763611695) 11%, rgba(0,212,255,0.8527780741202731) 48%);
+}
+
+form{
+    background-color: rgba(255, 255, 255, 0.369);
+}
+
+
+.age-msg span{
+    color: crimson;
+    font-size: 16px;
+    font-weight: 700;
+}
