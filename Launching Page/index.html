@@ -7,8 +7,23 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="bg-black text-white">Hello world</div>
+   <div id="wrapper" class="h-full min-h-screen w-screen relative" >
+    <img class="scale-50" src="./images/logo.png" alt="">
+    <div class="absolute translate-y-2/4 left-20">
+        <p class="text-white">Website is under maintenance</p>
+        <p class="text-white text-6xl font-semibold">We're <span class="text-pink-700 font-extrabold">Launching</span> soon</p>
+         <div class="flex gap-5 mt-6">
+            <div class="flex flex-col text-white items-center"><span class="days text-6xl">00</span>Days</div>
+            <div class="flex flex-col text-white items-center"><span class="hours text-6xl">00</span>Hours</div>
+            <div class="flex flex-col text-white items-center"><span class="minutes text-6xl">00</span>Minutes</div>
+            <div class="flex flex-col text-white items-center"><span class="second text-6xl">00</span>Seconds</div>
+         </div>
+        <button class="flex items-center justify-center py-1 px-3 bg-transparent border border-white outline-none text-white gap-1 mt-4 text-lg">Learn <img class="h-4 w-4" src="./images/triangle.png" alt=""></button>
+    </div>
+    <img class="rocket absolute " src="./images/rocket.png" alt="">
+   </div>
 
+  
     <script src="script.js"></script>
 </body>
 </html>
