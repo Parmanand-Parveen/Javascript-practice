@@ -1,3 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+#wrapper{
+    background-image: url(./images/background.png);
+    background-position: center;
+    background-size: cover;
+}

@@ -7,9 +7,37 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
-
-
+      <div id="wrapper" class="min-h-screen h-full w-full relative overflow-x-hidden text-white">
+      <img class="absolute w-12 h-12 top-3 left-7" src="./images/logo.png" alt="">
+      <nav class=" text-white w-full flex lg:gap-[1000px] pt-5">
+        <ul class="flex ml-24 gap-4 cursor-pointer">
+            <li>Market</li>
+            <li>Features</li>
+            <li>White Paper</li>
+            <li>About us</li>
+        </ul>
+        <button>En</button>
+      </nav>
+      <div class="w-[40%] mt-[15%] ml-10 flex flex-col gap-4">
+        <p class="text-7xl font-bold">Buy & <br> Sell <span class="text-yellow-500">Crypto</span></p>
+        <p>World's biggest Cryptocurrency exchange available on web <br> as well as on mobile phone</p>
+        <button class="py-2 px-6 rounded-3xl bg-yellow-500 w-[175px]">Explore More</button>
+      </div>
+      <div class="flex gap-10 absolute right-32 bottom-10">
+        <div class="flex gap-4 items-center border-2 py-2 px-5 "> 
+            <img class="w-8 h-8" src="./images/bitcoin.png" alt="">
+            <p class="bitcoin">00</p>
+        </div>
+        <div class="flex gap-4 items-center border-2 py-2 px-5 ">
+            <img class="w-8 h-8 " src="./images/ethereum.png" alt="">
+            <p class="ethereum">00</p>
+        </div>
+        <div class="flex gap-4 items-center border-2 py-2 px-5 ">
+            <img class="w-8 h-8" src="./images/dogecoin.png" alt="">
+            <p class="dogecoin">00</p>
+        </div>
+      </div>
+      </div>
     <script src="script.js"></script>
 </body>
 </html>
