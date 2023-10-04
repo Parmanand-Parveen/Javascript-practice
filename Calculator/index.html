@@ -9,38 +9,38 @@
 <body>
 
     <div id="wrapper" class="min-h-screen h-full w-full flex justify-center items-center bg-sky-300">
-       <form class="h-full w-80 bg-white"> 
+       <form class="h-full w-fit p-3 bg-black outline-none "> 
         <div  class="display">
-        <input class="text-right" name="display" type="text">
+        <input class="text-right w-full h-12 bg-transparent text-white text-xl border border-white" name="display" type="text">
         </div>
-        <div class="data">
-        <input type="button" value="C"  onclick="display.value ='' ">
-        <input type="button" value="DE" onclick="display.value = display.value.toString().slice(0,-1)">
-        <input type="button" value="."  onclick="dispplay.value ='.' ">
-        <input type="button" value="/" onclick="dispplay.value='/' ">
+        <div class="data mt-2 w-full flex gap-3 ">
+        <input class="button h-12 w-12 text-white" type="button" value="C"  on onclick="display.value ='' ">
+        <input class="button h-12 w-12 text-white" type="button" value="DE" onclick="display.value = display.value.toString().slice(0,-1)">
+        <input class="button h-12 w-12 text-white" type="button" value="."  onclick="display.value ='.' ">
+        <input class="button h-12 w-12 text-white" type="button" value="/" onclick="display.value='/' ">
         </div>
-        <div class="data">
-        <input type="button" value="7" onclick="display.value += '7' ">
-        <input type="button" value="8" onclick="display.value += '8'">
-        <input type="button" value="9" onclick="display.value += '9'">
-        <input type="button" value="*" onclick="display.value += '*'">
+        <div class="data mt-2 w-full flex gap-3">
+        <input class="button h-12 w-12 text-white" type="button" value="7" onclick="display.value += '7' ">
+        <input class="button h-12 w-12 text-white" type="button" value="8" onclick="display.value += '8'">
+        <input class="button h-12 w-12 text-white" type="button" value="9" onclick="display.value += '9'">
+        <input class="button h-12 w-12 text-white" type="button" value="*" onclick="display.value += '*'">
         </div>
-        <div class="data">
-        <input type="button" value="4" onclick="display.value += '4'">
-        <input type="button" value="5" onclick="display.value += '5'">
-        <input type="button" value="6" onclick="display.value += '6'">
-        <input type="button" value="-" onclick="display.value += '-'">
+        <div class="data mt-2 w-full flex gap-3">
+        <input class="button h-12 w-12 text-white" type="button" value="4" onclick="display.value += '4'">
+        <input class="button h-12 w-12 text-white" type="button" value="5" onclick="display.value += '5'">
+        <input class="button h-12 w-12 text-white" type="button" value="6" onclick="display.value += '6'">
+        <input class="button h-12 w-12 text-white" type="button" value="-" onclick="display.value += '-'">
         </div>
-        <div class="data">
-        <input type="button" value="1" onclick="display.value += '1'">
-        <input type="button" value="2"  onclick="display.value += '2'">
-        <input type="button" value="3" onclick="display.value += '3'">
-        <input type="button" value="+" onclick="display.value += '+'">
+        <div class="data mt-2 w-full flex gap-3">
+        <input class="button h-12 w-12 text-white" type="button" value="1" onclick="display.value += '1'">
+        <input class="button h-12 w-12 text-white" type="button" value="2"  onclick="display.value += '2'">
+        <input class="button h-12 w-12 text-white" type="button" value="3" onclick="display.value += '3'">
+        <input class="button h-12 w-12 text-white" type="button" value="+" onclick="display.value += '+'">
         </div>
-        <div class="data">
-        <input type="button" value="00" onclick="display.value += '00'">
-        <input type="button" value="0" onclick="display.value += '0'">
-        <input type="button" value="=" onclick="display.value = eval(display.value)">
+        <div class="data mt-2 w-full flex gap-3">
+        <input class="button h-12 w-12 text-white" type="button" value="00" onclick="display.value += '00'">
+        <input class="button h-12 w-12 text-white" type="button" value="0" onclick="display.value += '0'">
+        <input class="button h-12 w-[108px] text-white" type="button" value="=" onclick="display.value = eval(display.value)">
  
         </div>
        </form>
