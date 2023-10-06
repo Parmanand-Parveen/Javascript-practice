@@ -8,15 +8,15 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.5.0/remixicon.css" integrity="sha512-HXXR0l2yMwHDrDyxJbrMD9eLvPe3z3qL3PPeozNTsiHJEENxx8DH2CxmV05iwG0dwoz5n4gQZQyYLUNt1Wdgfg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
-<div id="wrapper">
-
-<div>
-    <div class="heading"></div>
-    <div class="quote"></div>
-    <div class="author"></div>
-    <div>
-        <button>New Quote</button>
-        <button><i class="ri-twitter-x-line"></i>Twitte</button>
+<div id="wrapper" class="min-h-screen h-full w-full flex justify-center items-center bg-violet-400">
+<div class="box h-[250px] w-2/5 flex flex-col items-center p-4 bg-white relative rounded">
+    <div class="heading text-3xl font-semibold">Quote OF THE DATE</div>
+    <div class="line w-1/4 h-1 bg-sky-700"></div>
+    <div class="quote mt-2 text-center">Loading...</div>
+    <div class=" absolute bottom-11 right-2 flex items-center gap-1"><div class="w-5 h-[2px] bg-sky-700"></div><p class="author">Loading...</p></div>
+    <div class="absolute bottom-2">
+        <button class="py-1 px-3 rounded-3xl bg-sky-600 text-white" onclick="getquote()">New Quote</button>
+        <button class="py-1 px-3 rounded-3xl border border-black" onclick="tweet()"><i class="ri-twitter-x-line"></i>Tweet</button>
     </div>
 </div>
 
