@@ -2,3 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.cursor{
+    position: absolute;
+    mix-blend-mode:difference;
+    transition: all linear 0.1ms;
+}
