@@ -3,7 +3,7 @@ let hour = document.querySelector(".hours")
 let minute = document.querySelector(".minutes")
 let second = document.querySelector(".second")
 
-let launchdate = new Date("Oct 16, 2023 00:00:00").getTime();
+let launchdate = new Date("Dec 16, 2024 00:00:00").getTime();
 
 var x = setInterval(()=>{
     var now = new Date().getTime();
